@@ -1,0 +1,14 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.6.0+cpu
+torchvision==0.21.0+cpu
+
+gradio==6.17.3
+numpy>=1.24.0
+opencv-python-headless==4.13.0.92
+pillow>=10.0.0
+faiss-cpu==1.14.2
+sentence-transformers==5.5.1
+
+# Local LLM — Qwen2.5-0.5B-Instruct, GGUF q8_0, Apache 2.0
+# Compiled from source on Linux (HF Spaces); no GPU required
+llama-cpp-python==0.3.28

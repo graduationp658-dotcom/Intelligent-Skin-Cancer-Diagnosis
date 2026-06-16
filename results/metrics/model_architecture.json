@@ -1,0 +1,36 @@
+{
+  "backbone": "EfficientNet-B4",
+  "pretrained": "ImageNet (EfficientNet_B4_Weights.IMAGENET1K_V1)",
+  "input_size": [
+    3,
+    224,
+    224
+  ],
+  "num_classes": 8,
+  "in_features": 1792,
+  "head": [
+    "BatchNorm1d(1792)",
+    "Linear(1792\u2192512) + ReLU + Dropout(0.4)",
+    "Linear(512\u2192256) + ReLU + Dropout(0.3)",
+    "Linear(256\u21929)"
+  ],
+  "total_params": 18603600,
+  "stages": {
+    "1": {
+      "epochs": 10,
+      "lr": 0.001,
+      "desc": "Head only"
+    },
+    "2": {
+      "epochs": 20,
+      "lr": 0.0001,
+      "desc": "Head + last 4 backbone blocks"
+    },
+    "3": {
+      "epochs": 10,
+      "lr": 1e-05,
+      "desc": "Full model"
+    }
+  },
+  "loss": "CrossEntropyLoss(label_smoothing=0.1, weighted)"
+}

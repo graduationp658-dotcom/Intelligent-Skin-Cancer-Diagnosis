@@ -1,0 +1,33 @@
+{
+  "tag": "v5_resolution456",
+  "img_size": 456,
+  "based_on": "full_pipeline_v2",
+  "preprocessed_dir": "preprocessed_v5_resolution456",
+  "reinhard_ref_mean": [
+    162.2246856689453,
+    149.19000244140625,
+    134.0956268310547
+  ],
+  "reinhard_ref_std": [
+    27.766956329345703,
+    5.033913612365723,
+    5.909717082977295
+  ],
+  "ref_samples": 500,
+  "seed": 42,
+  "errors": 0,
+  "total_images": 10780,
+  "preprocessing": {
+    "resize": "456x456",
+    "ruler_removal": true,
+    "hair_removal": true,
+    "lesion_segmentation_crop": true,
+    "shadow_removal": true,
+    "clahe": {
+      "clip_limit": 2.0,
+      "tile_grid": "8x8"
+    },
+    "reinhard_norm": true,
+    "background_suppression": true
+  }
+}

@@ -1,0 +1,11 @@
+metric,achieved,target,gap
+Macro AUC (test),0.8591743532356433,0.93,0.07082564676435676
+Melanoma sensitivity (argmax),0.4112903225806452,0.85,0.4387096774193548
+Melanoma sensitivity (threshold-adj.),0.5241935483870968,0.85,0.3258064516129032
+Cohen's kappa (argmax),0.3653565835849253,0.8,0.43464341641507476
+Cohen's kappa (threshold-adj.),0.3071558911561689,0.8,0.4928441088438311
+Overall accuracy (argmax),0.5696793002915452,,
+Overall accuracy (threshold-adj.),0.49795918367346936,,
+Macro F1 (argmax),0.38123964193241744,,
+Balanced accuracy (argmax),0.5260483306318693,,
+MCC (argmax),0.37812456756380974,,

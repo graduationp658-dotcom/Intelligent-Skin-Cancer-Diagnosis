@@ -1,0 +1,41 @@
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# ── Jupyter ───────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Large model weights (hosted on Hugging Face) ──────────
+# Download from: https://huggingface.co/spaces/graduationProject1/Skin-Cancer
+*.pth
+*.gguf
+*.bin
+*.safetensors
+
+# ── Training datasets (too large for git) ─────────────────
+# v6 preprocessed images used for training (6,695 images, ~331 MB)
+data/preprocessed_v6_resolution380/
+# Raw source datasets
+HAM1000/
+ISIC/
+
+# ── OS / IDE ──────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# ── Logs / temp ───────────────────────────────────────────
+*.log
+*.tmp

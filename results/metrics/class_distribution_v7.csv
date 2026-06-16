@@ -1,0 +1,9 @@
+label_str,count_before,count_after
+nevus,4889,74
+melanoma,1086,74
+pigmented benign keratosis,759,74
+basal cell carcinoma,349,74
+squamous cell carcinoma,127,74
+vascular lesion,97,74
+actinic keratosis,84,74
+dermatofibroma,74,74

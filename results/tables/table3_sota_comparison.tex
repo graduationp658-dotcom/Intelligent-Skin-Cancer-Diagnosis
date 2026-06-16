@@ -1,0 +1,13 @@
+\begin{table}
+\caption{Comparison to published EfficientNet-based skin lesion classifiers (not directly comparable -- see text).}
+\label{tab:table3_sota_comparison}
+\begin{tabular}{p{4.5cm}p{3.5cm}p{4.5cm}rrr}
+\toprule
+Study & Architecture & Task / Test set & Accuracy & Macro F1 & Macro AUC \\
+\midrule
+Gessert et al. (2020) -- ISIC 2019 winner & EfficientNet ensemble (B0-B6) + metadata & ISIC 2019 official test (8-class, n=8238) & 0.748 & 0.743 & n/r \\
+Khalid et al. (2026), ETASR -- EfficientNet-B4 + Soft Attention & EfficientNet-B4 + soft attention & HAM10000 7-class (random split) & 0.931 & 0.835 & 0.990 \\
+This work & EfficientNet-B4 + SE block & HAM10000+ISIC 8-class, held-out test (n=1715) & 0.675 & 0.441 & 0.873 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,13 @@
+\begin{table}
+\caption{Ablation (a): effect of progressively unfreezing the EfficientNet-B4 backbone.}
+\label{tab:table4a_progressive_finetuning}
+\begin{tabular}{clrrr}
+\toprule
+Stage & Description & Epochs & LR & Best Val Macro AUC \\
+\midrule
+1 & Head only & 10 & 0.001 & 0.8208 \\
+2 & Head + last 4 backbone blocks & 20 & 0.000 & 0.8506 \\
+3 & Full model & 9 & 0.000 & 0.8550 \\
+\bottomrule
+\end{tabular}
+\end{table}

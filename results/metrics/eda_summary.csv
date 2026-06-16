@@ -1,0 +1,9 @@
+label_int,label_str,count,pct,weight,flagged_count,is_malignant
+0,actinic keratosis,136,1.26,9.9081,0,False
+1,basal cell carcinoma,514,4.77,2.6216,0,True
+2,dermatofibroma,122,1.13,11.0451,0,False
+3,melanoma,1567,14.54,0.8599,0,True
+4,nevus,7001,64.94,0.1925,0,False
+5,pigmented benign keratosis,1101,10.21,1.2239,0,False
+6,squamous cell carcinoma,197,1.83,6.8401,0,True
+7,vascular lesion,142,1.32,9.4894,0,False

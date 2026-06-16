@@ -1,0 +1,10 @@
+class,old_count_8class,corrected_8class_before_scc_drop,after_scc_drop_7class,final_after_undersampling
+actinic keratosis,136,327,327,327
+basal cell carcinoma,514,514,514,514
+dermatofibroma,122,122,122,122
+melanoma,1567,1489,1489,1489
+nevus,7001,7000,7000,3000
+pigmented benign keratosis,1101,1101,1101,1101
+vascular lesion,142,142,142,142
+squamous cell carcinoma,197,5,0,0
+TOTAL,10780,10700,10695,6695
